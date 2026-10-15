@@ -519,8 +519,15 @@ footer nav { display: flex; gap: 18px; flex-wrap: wrap; }
   margin-top: 24px;
   padding-top: 18px;
   text-align: center;
-  color: #5C6472;
+  color: #8B93A0;
 }
+.footer-bottom .credit-link {
+  color: var(--copper-light);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.footer-bottom .credit-link:hover { color: #fff; }
 
 /* ---------- Floating WhatsApp button ---------- */
 .wa-float {
